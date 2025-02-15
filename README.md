@@ -1,4 +1,4 @@
-# 🚀 Next.js T3 Stack Project
+# 🚀 Arkhive Drive
 
 This is a modern full-stack web application built using the **T3 Stack**, featuring **Next.js, React, TypeScript, Drizzle ORM with SingleStore, Clerk for authentication, and PostHog for analytics**.
 
@@ -14,8 +14,8 @@ This is a modern full-stack web application built using the **T3 Stack**, featur
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/Marvellousz/Arkhive-Drive
+cd Arkhive-Drive
 ```
 
 ### 2️⃣ Install Dependencies
