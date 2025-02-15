@@ -1,34 +1,68 @@
-# Drive Tutorial
+# 🚀 Next.js T3 Stack Project
 
-## TODO
+This is a modern full-stack web application built using the **T3 Stack**, featuring **Next.js, React, TypeScript, Drizzle ORM with SingleStore, Clerk for authentication, and PostHog for analytics**.
 
-- [x] Set up database and data model
-- [x] Move folder open state to URL
-- [x] Add auth
-- [x] Add file uploading
-- [x] Add analytics
-- [x] Make sure sort order is consistent
-- [x] Add delete
-- [x] Real homepage + onboarding
+## 📌 Features
+- **Next.js 14 (App Router)** – Optimized React framework with Server Components.
+- **TypeScript** – Strictly typed for better reliability.
+- **Drizzle ORM + SingleStore** – SQL-based ORM for type-safe and scalable database interactions.
+- **Clerk Authentication** – Secure and seamless user authentication.
+- **PostHog Analytics** – Event-based tracking for better insights.
+- **Tailwind CSS** – Utility-first styling for rapid UI development.
 
-## Fun follow ups
+## ⚡ Getting Started
 
-### Folder deletions
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
 
-Make sure you fetch all of the folders that have it as a parent, and their children too
+### 2️⃣ Install Dependencies
+```sh
+pnpm install
+```
 
-### Folder creations
+### 3️⃣ Setup Environment Variables
+Create a `.env` file in the root directory and configure all env variables.
 
-Make a server action that takes a name and parentId, and creates a folder with that name and parentId (don't forget to set the ownerId).
 
-### Access control
+### 4️⃣ Run Database Migrations
+```sh
+pnpm run db:push  
+```
 
-Check if user is owner before showing the folder page.
+### 5️⃣ Start the Development Server
+```sh
+pnpm run dev
+```
+Your app should now be running at `http://localhost:3000` 🚀.
 
-### Make a "file view" page
+## 🛠 Tech Stack
+| Technology  | Description |
+|-------------|------------|
+| **Next.js** | React framework for production-ready applications |
+| **TypeScript** | Static type checking for better code quality |
+| **Drizzle ORM** | Lightweight, type-safe SQL ORM |
+| **SingleStore** | High-performance distributed SQL database |
+| **Clerk** | Authentication platform with easy integration |
+| **PostHog** | Product analytics & event tracking |
+| **Tailwind CSS** | Utility-first CSS framework |
 
-You get the idea. Maybe check out my last tutorial?
+## 🏗 Deployment
+### **Netlify Deployment**
+This project is optimized for deployment on Netlify.
 
-### Toasts!
+## 🤝 Contributing
+1. Fork the repository 🍴
+2. Create a new feature branch 🚀
+3. Commit changes 📝
+4. Open a pull request 🔥
 
-### Gray out a row while it's being deleted
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+
+Made with ❤️ by [Pranav Murali](https://pranavmurali.me)
+
